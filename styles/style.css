@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+	font-family: 'BebasNeue';
+	src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+body {
+  background: #ffffff;
+}
+.encabezao {
+    background-color: #f0cc00;
+    padding: 0.5% 3%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navegacion {
+    display: flex;
+    background: #f0cc00;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	
+}
+.logo {
+    margin-left: 25px;
+}
+
+.logo img {
+    width: 70px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+	font-family:sans-serif;
+}
+.primera-seccion {
+  display: flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 4%;
+}
+
+.imagen01 img {
+  width: 100%;       
+  max-width: 530px;  
+  display: block;     
+}
+.contenido {
+    width: 450px;
+}
+.contenido h1 {
+	font-family: 'BebasNeue';
+    font-size: 90px;
+
+}
+
+.contenido p {
+	font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.primer-boton {
+    background: #f0cc00;
+	height: 35px;
+	width: 120px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+.segunda-seccion{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position:absolute;
+	gap: 90px;
+	background-color:#E6E6E6;
+	padding: 4%;
+
+	width: 80%;
+	bottom:0;
+	left:50%;
+
+	transform:translate(-50%, 50%);
+	z-index:10;
+	box-shadow:20px 20px 40px rgba(0, 0, 0, 0.308);
+}
+.segunda-seccion h2{
+	font-size: 50px;
+	color: #F5CB00;
+}
+.segunda-seccion p{
+	color: black;
+	font-weight: 900;
+
+}
+.graph1, .graph2 {
+    width: 20%;
+}
+.graph1 img, .graph2 img  {
+    width: 100%;
+}
+.tercera-seccion{
+    display: flex;
+    background-color: #F5CB00;
+    padding: 5%;
+    padding-top: 300px;
+}
+.tercera-seccion h2{
+    font-size: 60px;
+}
