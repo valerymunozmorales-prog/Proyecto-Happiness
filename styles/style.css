@@ -558,3 +558,449 @@ footer {
   height: 20px;
   cursor: pointer;
 }
+
+/* SMARTPHONES: 352px - 480px */
+@media (min-width: 352px) and (max-width: 480px) {
+  .navegacion {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .primera-seccion,
+  .tercera-seccion,
+  .sexta-seccion,
+  .seccion7,
+  .seccion8 {
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px;
+  }
+
+  .imagen01,
+  .contenido,
+  .texto,
+  .foto,
+  .imagen05,
+  .contenido-equipo,
+  .formulario,
+  .contenido-suscripcion {
+    width: 100%;
+  }
+
+  .contenido {
+    padding-left: 0;
+  }
+
+  .contenido h1 {
+    font-size: 55px;
+  }
+
+  .contenido p,
+  .texto p,
+  .sexta-seccion p,
+  .seccion7 p,
+  .contenido-suscripcion p,
+  .cuarta-seccion p {
+    padding-right: 0;
+  }
+
+  .contenedor-amarillo {
+    height: auto;
+    margin-top: 40px;
+    padding: 30px 0;
+  }
+
+  .segunda-seccion {
+    position: static;
+    transform: none;
+    width: 90%;
+    min-height: auto;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .tarjeta-texto {
+    width: 100%;
+  }
+
+  .segunda-seccion h2 {
+    font-size: 50px;
+  }
+
+  .contenido-graficos {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .graph1,
+  .graph2 {
+    width: 100%;
+  }
+
+  .tercera-seccion h2,
+  .seccion7 h2 {
+    font-size: 55px;
+  }
+
+  .cuarta-seccion {
+    width: 90%;
+    margin: 40px auto;
+    flex-direction: column;
+  }
+
+  .imagen02,
+  .contenido-derecha {
+    width: 100%;
+  }
+
+  .contenido-derecha {
+    padding: 30px 20px;
+  }
+
+  .cuarta-seccion h2 {
+    font-size: 55px;
+  }
+
+  .imagen03 {
+    width: 150px;
+  }
+
+  .quinta-seccion {
+    padding: 45px 20px;
+  }
+
+  .sexta-seccion h2 {
+    font-size: 45px;
+  }
+
+  .seccion8 h2 {
+    font-size: 45px;
+  }
+
+  .formulario-NS {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .formulario textarea {
+    height: 150px;
+  }
+
+  .seccion9 {
+    padding: 40px 20px;
+  }
+
+  .seccion9 h2 {
+    font-size: 45px;
+  }
+
+  .mapa img {
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 40px 20px 20px 20px;
+  }
+
+  .footer-cara img {
+    margin-bottom: 40px;
+  }
+
+  .footer-links {
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
+  }
+}
+
+/* TABLETS Y SMARTPHONES GRANDES: 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .navegacion {
+    padding: 10px 25px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+
+  .primera-seccion,
+  .tercera-seccion,
+  .sexta-seccion,
+  .seccion7,
+  .seccion8 {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 30px;
+  }
+
+  .imagen01,
+  .contenido,
+  .texto,
+  .foto,
+  .imagen05,
+  .contenido-equipo,
+  .formulario,
+  .contenido-suscripcion {
+    width: 100%;
+  }
+
+  .contenido {
+    padding-left: 0;
+  }
+
+  .contenido h1 {
+    font-size: 70px;
+  }
+
+  .contenido p,
+  .texto p,
+  .sexta-seccion p,
+  .seccion7 p,
+  .contenido-suscripcion p,
+  .cuarta-seccion p {
+    padding-right: 0;
+  }
+
+  .contenedor-amarillo {
+    height: auto;
+    margin-top: 50px;
+    padding: 40px 0;
+  }
+
+  .segunda-seccion {
+    position: static;
+    transform: none;
+    width: 90%;
+    min-height: auto;
+    flex-direction: column;
+    gap: 35px;
+    padding: 40px 30px;
+  }
+
+  .tarjeta-texto {
+    width: 100%;
+  }
+
+  .segunda-seccion h2 {
+    font-size: 65px;
+  }
+
+  .contenido-graficos {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .tercera-seccion h2,
+  .seccion7 h2 {
+    font-size: 70px;
+  }
+
+  .cuarta-seccion {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .imagen02,
+  .contenido-derecha {
+    width: 100%;
+  }
+
+  .contenido-derecha {
+    padding: 40px 30px;
+  }
+
+  .cuarta-seccion h2 {
+    font-size: 65px;
+  }
+
+  .seccion8 h2 {
+    font-size: 55px;
+  }
+
+  .formulario-NS {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-links {
+    margin-bottom: 70px;
+  }
+
+  .footer-bottom {
+    gap: 25px;
+  }
+}
+
+/* LAPTOPS, TABLETS GRANDES EN HORIZONTAL Y ESCRITORIOS PEQUEÑOS: 769px - 920px */
+@media (min-width: 769px) and (max-width: 920px) {
+  .navegacion {
+    padding: 10px 25px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+
+  .primera-seccion {
+    gap: 25px;
+    padding: 60px 4%;
+  }
+
+  .contenido {
+    padding-left: 15px;
+  }
+
+  .contenido h1 {
+    font-size: 70px;
+  }
+
+  .contenido p,
+  .texto p,
+  .sexta-seccion p,
+  .seccion7 p,
+  .contenido-suscripcion p,
+  .cuarta-seccion p {
+    padding-right: 0;
+  }
+
+  .contenedor-amarillo {
+    height: 320px;
+  }
+
+  .segunda-seccion {
+    width: 90%;
+    gap: 30px;
+    padding: 40px 35px;
+  }
+
+  .segunda-seccion h2 {
+    font-size: 65px;
+  }
+
+  .contenido-graficos {
+    gap: 20px;
+  }
+
+  .tercera-seccion,
+  .sexta-seccion,
+  .seccion7 {
+    gap: 30px;
+    padding: 60px 4%;
+  }
+
+  .tercera-seccion h2,
+  .seccion7 h2 {
+    font-size: 70px;
+  }
+
+  .cuarta-seccion {
+    width: 90%;
+  }
+
+  .contenido-derecha {
+    padding: 30px;
+  }
+
+  .cuarta-seccion h2 {
+    font-size: 60px;
+  }
+
+  .seccion8 {
+    gap: 30px;
+    padding: 70px 5%;
+  }
+
+  .seccion8 h2 {
+    font-size: 50px;
+  }
+}
+
+/* PANTALLAS MEDIANAS: 921px - 1279px */
+@media (min-width: 921px) and (max-width: 1279px) {
+  .navegacion {
+    padding: 10px 30px;
+  }
+
+  .menu {
+    gap: 30px;
+  }
+
+  .primera-seccion {
+    gap: 35px;
+    padding: 70px 5%;
+  }
+
+  .contenido {
+    padding-left: 20px;
+  }
+
+  .contenido h1 {
+    font-size: 85px;
+  }
+
+  .contenido p,
+  .texto p,
+  .sexta-seccion p,
+  .seccion7 p,
+  .contenido-suscripcion p,
+  .cuarta-seccion p {
+    padding-right: 0;
+  }
+
+  .segunda-seccion {
+    width: 88%;
+    gap: 40px;
+    padding: 45px 45px;
+  }
+
+  .segunda-seccion h2 {
+    font-size: 75px;
+  }
+
+  .tercera-seccion,
+  .sexta-seccion,
+  .seccion7 {
+    gap: 40px;
+    padding: 70px 5%;
+  }
+
+  .tercera-seccion h2,
+  .seccion7 h2 {
+    font-size: 80px;
+  }
+
+  .cuarta-seccion {
+    width: 88%;
+  }
+
+  .contenido-derecha {
+    padding: 35px 40px;
+  }
+
+  .cuarta-seccion h2 {
+    font-size: 70px;
+  }
+
+  .seccion8 {
+    gap: 40px;
+    padding: 80px 6%;
+  }
+
+  .seccion8 h2 {
+    font-size: 55px;
+  }
+}
